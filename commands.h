@@ -14,8 +14,8 @@ class command {
 	std::string command;
 	std::string file;	
 	public:
-		void setCommand(string input);
-		void setFile(string input);
+		void setCommand(std::string input);
+		void setFile(std::string input);
 };
 
 void pwdFunc();
