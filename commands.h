@@ -6,7 +6,6 @@
 //command option class; don't use yet
 class option {
 	std::string opt;
-	option* next;
 };
 
 //commands class
