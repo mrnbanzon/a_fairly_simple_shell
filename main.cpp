@@ -1,8 +1,6 @@
 //basic linux shell
 #include "commands.h"
 
-using namespace std;
-
 int main() {
 	string input;
 

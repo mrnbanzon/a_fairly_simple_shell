@@ -1,18 +1,21 @@
+//header file for commands
 #include <iostream>
 #include <string>
 #include <stdlib.h>
 #include "unistd.h"
 
+using namespace std;
+
 //command option class; don't use yet
 class option {
-	std::string opt;
+	string opt;
 	option* next;
 };
 
 //commands class
 class command {
-	std::string command;
-	std::string file;	
+	string command;
+	string file;	
 	public:
 		void setCommand(string input);
 		void setFile(string input);
